@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
 
-const port = 4000;
+const port = 4020;
 
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send('Hello Byte-Vault!');
+  res.send('Hello Digital-Bytes!');
 });
 
 app.listen(port, () => {
